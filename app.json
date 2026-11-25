@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "MAG CRM HML",
+    "slug": "mag-crm-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "magcrmhml",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "br.com.magmoveiscorporativos.crm.hml",
+      "versionCode": 8,
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
+      },
+      "allowBackup": false,
+      "softwareKeyboardLayoutMode": "resize",
+      "predictiveBackGestureEnabled": false,
+      "permissions": [],
+      "blockedPermissions": [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 120,
+          "dark": {
+            "backgroundColor": "#151213",
+            "image": "./assets/images/splash-icon.png"
+          }
+        }
+      ],
+      "expo-secure-store",
+      "./plugins/with-cmake-caminhos-curtos.js",
+      "./plugins/with-release-sem-assinatura.js",
+      "./plugins/with-rede-homologacao.js",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "O MAG CRM usa o microfone só quando você grava um áudio para o cliente.",
+          "recordAudioAndroid": true,
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false
+        }
+      ],
+      "expo-sharing",
+      "@react-native-community/datetimepicker",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "O MAG CRM usa a câmera só quando você fotografa algo para enviar ao cliente.",
+          "photosPermission": "O MAG CRM abre suas fotos só quando você escolhe uma para enviar ao cliente."
+        }
+      ]
+    ],
+    "extra": {
+      "variante": "hml"
+    },
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
