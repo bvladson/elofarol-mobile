@@ -1,11 +1,18 @@
-# MAG CRM — aplicativo Android nativo
+# ELOFAROL MOBILE
+
+**Customer Relationship Management & Sales Platform**
+
+> Interface Android do Elofarol. Segunda interface do mesmo ecossistema, não um produto separado.
+>
+> **A Vladson Labs Project** · Developed by Vladson Bezerra
+> Participação autoral: Desenvolvimento original
 
 O app da equipe comercial do Grupo MAG: atendimento por WhatsApp, funil, propostas e clientes no
-celular, ligado ao [CRM do site MAG](https://github.com/bvladson/mag-site-crm) por uma API própria
+celular, ligado ao [CRM do site MAG](https://github.com/bvladson/elofarol-web) por uma API própria
 (`/api/crm/v1`). Interface **nativa**, sem WebView nem Trusted Web Activity, distribuída por APK
 para a equipe, fora da Google Play.
 
-**Versão 1.0.0 — 25/11/2026.** [Baixar o APK](https://github.com/bvladson/mag-crm-android/releases/download/v1.0.0/MAG-CRM-1.0.0.apk)
+**Versão 1.0.0 — 25/11/2026.** [Baixar o APK](https://github.com/bvladson/elofarol-mobile/releases/download/v1.0.0/MAG-CRM-1.0.0.apk)
 (Android 7.0 ou mais novo; só entra com uma conta autorizada no CRM da MAG).
 
 **Stack:** React Native 0.88 (Nova Arquitetura, Hermes), Expo SDK 58, Expo Router com abas
