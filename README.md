@@ -1,8 +1,8 @@
-# ELOFAROL MOBILE
+# ELOFAROL CRM MOBILE
 
 **Customer Relationship Management & Sales Platform**
 
-> Interface Android do Elofarol. Segunda interface do mesmo ecossistema, não um produto separado.
+> Interface Android do Elofarol CRM. Segunda interface do mesmo ecossistema, não um produto separado.
 >
 > **A Vladson Labs Project** · Developed by Vladson Bezerra
 > Participação autoral: Desenvolvimento original
